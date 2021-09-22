@@ -13,3 +13,16 @@ tag_set.add(user_tag_3)
 song_data['Retro Words'] = tag_set
 
 print(song_data)
+
+
+song_data_users = {'Retro Words': ['pop', 'onion', 'warm', 'helloworld', 'happy', 'spam', 'electric']}
+
+# Write your code below!
+tag_set = set(song_data_users['Retro Words'])
+tag_set.discard('onion')
+tag_set.discard('helloworld')
+tag_set.discard('spam')
+
+song_data_users['Retro Words'] = tag_set
+print(song_data_users`)
+
