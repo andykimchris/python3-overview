@@ -1,6 +1,5 @@
-# Write your code below:
 from contextlib import contextmanager
-# class PoemFiles
+
 @contextmanager
 def poem_files(file, mode):
   print('Opening File')
